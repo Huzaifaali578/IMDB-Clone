@@ -12,6 +12,8 @@ body {
   animation-fill-mode: forwards;
   background: url("img/BAckground.jpg") no-repeat center center/cover;
   height: 100vh;
+  background-attachment: fixed;
+  margin: 0; 
 }
 
 @keyframes fadeInAnimation {
@@ -104,7 +106,7 @@ body {
   color: #fff;
   font-size: 12x;
   margin: 0px;
-  width: 90%;
+  width: 89%;
   padding: 15px 20px;
   border-radius: 4px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -132,6 +134,9 @@ body {
   margin: 0px auto;
   text-align: center;
   padding-top: 100px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .start-exploring span {
@@ -208,7 +213,7 @@ body {
   flex-wrap: wrap;
   width: 53%;
   padding: 10px;
-  margin: 0px auto;
+  margin: 40px auto;
 }
 
 .fav-item {
